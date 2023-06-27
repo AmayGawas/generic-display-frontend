@@ -11,12 +11,13 @@
         <div class="image"><img src="resources/loginbg.png" alt="" srcset=""></div>
         <div class="form">
           <h2>Student Portal Login</h2>
-          <form>
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
+          <form id="loginForm" onsubmit="login(event)">
+            <input type="email" name="" id="email" placeholder="Email">
+            <input id="password" type="password" placeholder="Password">
             <input type="submit" value="Login">
           </form>
         </div>
       </div>
+      <script src="login.js"></script>
 </body>
 </html>
