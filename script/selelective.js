@@ -20,6 +20,7 @@ navLinks.forEach((lnk,i) => lnk.addEventListener('click', function() {
         cardContainer.classList.remove('unactive');
         confrimationContainer.classList.add('unactive');
         subjectSelectedContainer.classList.add('unactive');
+        selectionContainer.classList.add('unactive');
     }
     else {
         return
